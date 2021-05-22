@@ -1,0 +1,126 @@
+/* Start of header configuration (Navbar included) */
+
+header {
+    background-color: brown;
+}
+
+.navbar {
+    padding-bottom: 0px;
+}
+
+#container-nav {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.navbar-light .navbar-brand {
+    color: cornsilk;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-left: 20px;
+    font-family: 'Cabin', sans-serif;
+}
+
+#button-nav {
+    margin-right: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: cornsilk;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: black;
+    background-color: cornsilk;
+}
+
+#button-navbar {
+    background-color: #e5e8e8;
+}
+
+#button-navbar hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* End of header configuration (Navbar included) */
+
+
+/* Start of page Title configuration (h2 element) */
+
+#tittle-menu {
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.3em;
+}
+
+
+/* End of page Title configuration (h2 element) */
+
+
+/* Start of section Title configuration (h3 element) */
+
+h3 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 15px;
+    color: brown;
+}
+
+
+/* End of page Title configuration (h2 element) */
+
+
+/* Start of section container configuration */
+
+.menu-A {
+    background-color: cornsilk;
+    border: solid brown;
+    margin: 5px 30px 10px 30px;
+    text-indent: 30px;
+}
+
+
+/* End of section container configuration */
+
+
+/* Start of section paragraph configuration */
+
+#text-1 {
+    font-style: italic;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* End of section paragraph configuration */
+
+
+/* Start Media queries of button configuration and navbar collapse behaviour*/
+
+@media (max-width: 576px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: black;
+        font-weight: 500;
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 244px) {
+    #button-nav {
+        margin-top: 10px;
+        margin-left: 80px;
+        margin-bottom: 10px;
+        margin-right: auto;
+    }
+}
+
+
+/* End Media queries of button configuration and navbar collapse behaviour*/

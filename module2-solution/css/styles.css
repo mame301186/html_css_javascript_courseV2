@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Comic Sans MS;
+}
+
+header {
+    font-size: 175%;
+    font-weight: bold;
+    text-align: center;
+}
+
+section {
+    border: black solid 1px;
+    background-color: gray;
+    text-align: center;
+    margin: 10px;
+    float: left;
+    width: 31%;
+}
+
+section>h2 {
+    border: black solid 1px;
+    font-size: 125%;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    padding: 2px;
+    float: right;
+}
+
+#menu-1 {
+    background-color: palevioletred;
+    left: 218px;
+}
+
+#menu-2 {
+    background-color: firebrick;
+    color: white;
+}
+
+#menu-3 {
+    background-color: gold;
+}
+
+p {
+    text-align: justify;
+    padding: 40px 5px 5px 5px;
+}
+
+@media(min-width: 768px) and (max-width:991px) {
+    .menu-A {
+        float: left;
+        width: 47%;
+    }
+    .menu-B {
+        float: left;
+        width: 97%;
+    }
+}
+
+@media (max-width: 767px) {
+    section {
+        float: left;
+        width: 97%;
+    }
+}
