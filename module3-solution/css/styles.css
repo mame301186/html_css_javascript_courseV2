@@ -62,7 +62,9 @@ header {
 /* End of page Title configuration (h2 element) */
 
 
-/* Start of section Title configuration (h3 element) */
+/*********Styles disabled for the adicional asignment******
+
+ Start of section Title configuration (h3 element) 
 
 h3 {
     font-family: 'Cabin', sans-serif;
@@ -77,7 +79,7 @@ h3 {
 /* End of page Title configuration (h2 element) */
 
 
-/* Start of section container configuration */
+/* Start of section container configuration
 
 .menu-A {
     background-color: cornsilk;
@@ -87,10 +89,10 @@ h3 {
 }
 
 
-/* End of section container configuration */
+/* End of section container configuration
 
 
-/* Start of section paragraph configuration */
+/* Start of section paragraph configuration
 
 #text-1 {
     font-style: italic;
@@ -100,7 +102,74 @@ h3 {
 }
 
 
-/* End of section paragraph configuration */
+ End of section paragraph configuration */
+
+
+/*********End Styles disabled for the adicional asignment (not grade)*******/
+
+
+/*****Start of styles activated for adicional asignment (not grade)******/
+
+#text-1,
+#text-2,
+#text-3 {
+    font-style: italic;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#col-chicken,
+#col-beef,
+#col-sushi {
+    background-color: cornsilk;
+    border: solid brown;
+    margin: 10px 10px 10px 10px;
+    text-indent: 30px;
+}
+
+h3 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 15px;
+    color: brown;
+    text-shadow: 1px 1px 2px black;
+}
+
+article a {
+    text-decoration-line: none;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: brown;
+    font-weight: bold;
+    text-indent: 0px;
+    text-shadow: 1px 1px 2px black;
+    font-size: 1.1em;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .col-sm-5 {
+        width: 45.6666666667%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .col-md-3 {
+        width: 30%;
+    }
+}
+
+@media (min-width: 993px) {
+    .col-lg-3 {
+        width: 31%;
+    }
+}
+
+
+/*****End of styles activated for adicional asignment (not grade)******/
 
 
 /* Start Media queries of button configuration and navbar collapse behaviour*/
